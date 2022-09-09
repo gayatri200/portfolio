@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Oswald:wght@300&family=Source+Code+Pro:wght@300&family=Source+Sans+3&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Oswald:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar
+{
+    background-color: rgb(224, 220, 220);
+   /* width: 337px;*/
+    font-family: 'Oswald', sans-serif;
+    height: 155vh;
+    transition:transform 0.4s ease-in;
+    position: absolute;
+}
+.sidebar nav{
+    padding: 58px;
+}
+.sidebar nav li a{
+   color: rgb(12, 11, 11);
+   text-decoration: none;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 28px;
+    padding: 33px 0px;
+    font-weight: bolder;
+}
+.main
+{
+   /*background-color: yellowgreen;*/
+    width: 100vw;
+    height: 100vh;
+}
+.containers{
+    display: flex;
+    background:rgb(222, 210, 210) url("/photos/julien-riedel-i6HGyMBYkm4-unsplash.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 155vh;
+
+}
+.infocontainer{
+   /*background-color: aqua;*/
+    height: 66vh;
+    width: 74vw;
+    margin: auto;
+    margin-top: 157px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.moreabout {
+    margin-top: 25px;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 39px;
+    margin: 5px 64px;
+  
+}
+.devPic img{
+    height: 56vh;
+    align-items: center;
+}
+.hello{
+   font-size: 55px;
+   font-family:'inherit';
+   
+}
+.name{
+   font-size: 40px;
+   font-weight: bold;
+   font-family: 'Noto Sans', sans-serif;
+   font-family: 'Oswald', sans-serif;
+   font-family: 'Source Code Pro', monospace;
+   font-family: 'Source Sans 3', sans-serif;
+}
+.about{
+   font-size: 35px;
+   font-family:'inherit';
+
+}
+.buttons {
+    margin: 57px 0px;
+}
+.buttons button{
+    padding: 14px;
+    border-radius: 28px;
+    color: white;
+    background: black;
+    font-weight: 800;
+    cursor: pointer;
+}
+.hamburger {
+   cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.close{
+   
+    margin-left: 183px;
+}
+.buttons button:hover{
+    background: white;
+    color: black;
+
+}
+.sidebar.sidebarGo {
+    transform: translate(-372px, 0px);
+    position:absolute;
+}
+@media(max-width:991px) {
+   /**{
+        background-color: rgb(50, 225, 94);
+    }*/
+    .devpic {
+        display: none;
+    }
+    
+}

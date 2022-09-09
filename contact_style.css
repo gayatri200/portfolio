@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head {
+    font-size: 50px;
+    margin: 28px;
+ /* background-color: red;*/
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+form.row.g-3 {
+    margin: 45px;
+}
+col-12.contact {
+    display: flex;
+    justify-content: center;
+    margin: 58px 0px;
+}
+button.btn.btn-primary {
+    width: 162px;
+}

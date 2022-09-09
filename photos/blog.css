@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head {
+    font-size: 50px;
+    margin: 28px;
+  /*  background-color: red;*/
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+.main_blog {
+    margin: 45px;
+}
+.infoblog{
+   /* background-color: aqua;*/
+    height: 66vh;
+    width: 74vw;
+    /*margin: auto;*/
+    /*margin-top: 48px;*/
+    display: flex;
+   /* justify-content: space-around;*/
+    flex-direction: column;
+    position: absolute;
+    margin: 6px 275px;
+}
+
+.blogs {
+    display: block;
+}
+.img1 {
+    display: flex;
+    justify-content: center;
+    margin: 53px 22px;
+}
+.h2{
+    font-weight: revert;
+    font-size: 35px;
+    font-style: oblique;
+    margin: 31px 2px;
+}
+.dis {
+    font-size: 19px;
+    font-weight: 400;
+    font-style: normal;
+}
+@media(max-width:1235px){
+    
+
+}
